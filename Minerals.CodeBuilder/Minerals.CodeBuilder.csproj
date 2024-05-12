@@ -6,11 +6,11 @@
         <LangVersion>12</LangVersion>
         <Nullable>enable</Nullable>
         <EnforceExtendedAnalyzerRules>true</EnforceExtendedAnalyzerRules>
-        <RootNamespace>Minerals.CodeBuilder</RootNamespace>
+        <RootNamespace>Minerals</RootNamespace>
     </PropertyGroup>
 
     <PropertyGroup>
-        <Version>0.1.0</Version>
+        <Version>0.1.1</Version>
         <Title>CodeBuilder</Title>
         <Authors>Szymon Hałucha</Authors>
         <Product>CodeBuilder</Product>
@@ -24,7 +24,7 @@
         <PackageProjectUrl>https://github.com/SzymonHalucha/Minerals.CodeBuilder</PackageProjectUrl>
         <PackageTags>code, builder, indented, writer, utils</PackageTags>
         <PackageReadmeFile>README.md</PackageReadmeFile>
-        <PackageReleaseNotes>First release</PackageReleaseNotes>
+        <PackageReleaseNotes>Fixed namespaces</PackageReleaseNotes>
         <IsPackable>true</IsPackable>
     </PropertyGroup>
 

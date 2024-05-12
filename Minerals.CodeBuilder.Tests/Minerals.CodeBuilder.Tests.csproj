@@ -7,7 +7,7 @@
         <Nullable>enable</Nullable>
         <IsPackable>false</IsPackable>
         <IsTestProject>true</IsTestProject>
-        <RootNamespace>Minerals.CodeBuilder.Tests</RootNamespace>
+        <RootNamespace>Minerals.Tests</RootNamespace>
         <DefaultItemExcludes>$(DefaultItemExcludes);Snapshots/*.cs</DefaultItemExcludes>
         <Optimize>true</Optimize>
     </PropertyGroup>

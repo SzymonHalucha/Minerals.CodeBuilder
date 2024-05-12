@@ -1,4 +1,4 @@
-namespace Minerals.CodeBuilder.Tests
+namespace Minerals.Tests
 {
     [TestClass]
     public class CodeBuilderTests : VerifyBase

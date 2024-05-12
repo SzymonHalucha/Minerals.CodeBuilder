@@ -23,7 +23,7 @@ Add the Minerals.CodeBuilder nuget package to your C# project using the followin
 ### 1. Project file definition
 
 ```xml
-<PackageReference Include="Minerals.CodeBuilder" Version="0.1.0" />
+<PackageReference Include="Minerals.CodeBuilder" Version="0.1.1" />
 ```
 
 ### 2. dotnet command
@@ -37,7 +37,7 @@ dotnet add package Minerals.CodeBuilder
 ### Write, WriteLine, OpenBlock, CloseBlock
 
 ```csharp
-var builder = new CodeBuilder(); // Default Parameters: (int indentationSize = 4, int indentationLevel = 0)
+var builder = new Minerals.CodeBuilder(); // Default Parameters: (int indentationSize = 4, int indentationLevel = 0)
 builder.Write("namespace ExampleNamespace").OpenBlock();
 builder.WriteLine("public class ExampleClass").OpenBlock();
 builder.WriteLine("public int[] ExampleArray = new int[] { 1, 2, 3, 4, 5 };");

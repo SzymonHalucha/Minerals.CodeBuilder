@@ -1,4 +1,4 @@
-namespace Minerals.CodeBuilder
+namespace Minerals
 {
     public static class CodeBuilderExtensions
     {

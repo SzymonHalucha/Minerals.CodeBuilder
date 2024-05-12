@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Minerals.CodeBuilder", "Minerals.CodeBuilder\Minerals.CodeBuilder.csproj", "{3D89D5C7-26E4-49DB-9B8B-4CD7431F9F26}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Minerals.CodeBuilder.Tests", "Minerals.CodeBuilder.Tests\Minerals.CodeBuilder.Tests.csproj", "{BA129A0E-A589-4A9F-9DAD-11948378BEEB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3D89D5C7-26E4-49DB-9B8B-4CD7431F9F26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D89D5C7-26E4-49DB-9B8B-4CD7431F9F26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D89D5C7-26E4-49DB-9B8B-4CD7431F9F26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D89D5C7-26E4-49DB-9B8B-4CD7431F9F26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA129A0E-A589-4A9F-9DAD-11948378BEEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA129A0E-A589-4A9F-9DAD-11948378BEEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA129A0E-A589-4A9F-9DAD-11948378BEEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA129A0E-A589-4A9F-9DAD-11948378BEEB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F4F9DF68-31C2-4FFB-B112-BE7F8D01C82C}
+	EndGlobalSection
+EndGlobal

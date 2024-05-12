@@ -1,11 +1,5 @@
 # Minerals.CodeBuilder
 
-![GitHub License](https://img.shields.io/github/license/SzymonHalucha/Minerals.CodeBuilder?style=for-the-badge)
-![NuGet Version](https://img.shields.io/nuget/v/Minerals.CodeBuilder?style=for-the-badge)
-![NuGet Downloads](https://img.shields.io/nuget/dt/Minerals.CodeBuilder?style=for-the-badge)
-
-[Package on nuget.org](https://www.nuget.org/packages/Minerals.CodeBuilder/)
-
 This small package provides functionalities for source code generation with management of code indentation.
 
 ## Features

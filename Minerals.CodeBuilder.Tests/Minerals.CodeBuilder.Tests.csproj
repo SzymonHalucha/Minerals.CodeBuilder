@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFrameworks>net6.0;net8.0</TargetFrameworks>
+        <ImplicitUsings>disable</ImplicitUsings>
+        <LangVersion>12</LangVersion>
+        <Nullable>enable</Nullable>
+        <IsPackable>false</IsPackable>
+        <IsTestProject>true</IsTestProject>
+        <RootNamespace>Minerals.CodeBuilder.Tests</RootNamespace>
+        <DefaultItemExcludes>$(DefaultItemExcludes);Snapshots/*.cs</DefaultItemExcludes>
+        <Optimize>true</Optimize>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\Minerals.CodeBuilder\Minerals.CodeBuilder.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Verify" Version="23.*" />
+        <PackageReference Include="Verify.MSTest" Version="23.*" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="coverlet.collector" Version="6.*" />
+        <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.*" />
+        <PackageReference Include="MSTest.TestAdapter" Version="3.*" />
+        <PackageReference Include="MSTest.TestFramework" Version="3.*" />
+    </ItemGroup>
+
+</Project>

@@ -1,0 +1,56 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <ImplicitUsings>disable</ImplicitUsings>
+        <LangVersion>12</LangVersion>
+        <Nullable>enable</Nullable>
+        <EnforceExtendedAnalyzerRules>true</EnforceExtendedAnalyzerRules>
+        <RootNamespace>Minerals.CodeBuilder</RootNamespace>
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <Version>0.1.0</Version>
+        <Title>CodeBuilder</Title>
+        <Authors>Szymon Hałucha</Authors>
+        <Product>CodeBuilder</Product>
+        <Description>Helper package dedicated to source generators that allows automatic tracking of code indentation</Description>
+        <Copyright>Copyright © Szymon Hałucha 2024</Copyright>
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <PackageId>Minerals.CodeBuilder</PackageId>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageProjectUrl>https://github.com/SzymonHalucha/Minerals.CodeBuilder</PackageProjectUrl>
+        <PackageTags>code, builder, indented, writer, utils</PackageTags>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <PackageReleaseNotes>First release</PackageReleaseNotes>
+        <IsPackable>true</IsPackable>
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <RepositoryUrl>https://github.com/SzymonHalucha/Minerals.CodeBuilder.git</RepositoryUrl>
+        <PublishRepositoryUrl>true</PublishRepositoryUrl>
+        <RepositoryBranch>v$(Version)</RepositoryBranch>
+        <RepositoryType>git</RepositoryType>
+    </PropertyGroup>
+
+    <PropertyGroup Condition="'$(Configuration)'=='Release'">
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <EnablePackageValidation>true</EnablePackageValidation>
+        <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
+        <IncludeBuildOutput>true</IncludeBuildOutput>
+        <Optimize>true</Optimize>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <None Include="README.md" Pack="true" PackagePath="" />
+        <None Include="..\LICENSE" Pack="true" PackagePath="" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.CodeAnalysis" Version="4.*" />
+        <PackageReference Update="NETStandard.Library" PrivateAssets="all" />
+    </ItemGroup>
+
+</Project>

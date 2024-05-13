@@ -23,7 +23,7 @@ Add the Minerals.CodeBuilder nuget package to your C# project using the followin
 ### 1. Project file definition
 
 ```xml
-<PackageReference Include="Minerals.CodeBuilder" Version="0.1.1" />
+<PackageReference Include="Minerals.CodeBuilder" Version="0.2.0" />
 ```
 
 ### 2. dotnet command
@@ -77,7 +77,7 @@ var success = true;
 builder.If(success)?.WriteLine("private bool _success = true;");
 ```
 
-### Extensions
+### CodeBuilderExtensions class
 
 ```csharp
 var builder = new CodeBuilder();
@@ -103,6 +103,17 @@ builder.Write("public class ExampleClass { }");
 [global::System.Runtime.CompilerServices.CompilerGenerated]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public class ExampleClass { }
+```
+
+### CodeBuilderHelper class
+
+```csharp
+string className = CodeBuilderHelper.GetIdentifierNameOf(baseTypeNode);
+string? namespaceName = CodeBuilderHelper.GetNamespaceOf(syntaxNode); // Block Namespace or File Scoped Namespace
+IEnumerable<string> modifiers = CodeBuilderHelper.GetModifiersOf(memberNode); // All modifiers
+IEnumerable<string>? accessModifiers = CodeBuilderHelper.GetAccessModifiersOf(memberNode); // Only private, protected, internal, public
+IEnumerable<string>? bases = CodeBuilderHelper.GetBasesOf(baseTypeNode); // Base class and interfaces
+IEnumerable<string>? usings = CodeBuilderHelper.GetUsingsOf(syntaxNode); // File usings and namespace usings
 ```
 
 ## Versioning

@@ -10,7 +10,7 @@
     </PropertyGroup>
 
     <PropertyGroup>
-        <Version>0.1.1</Version>
+        <Version>0.2.0</Version>
         <Title>CodeBuilder</Title>
         <Authors>Szymon Hałucha</Authors>
         <Product>CodeBuilder</Product>
@@ -24,7 +24,7 @@
         <PackageProjectUrl>https://github.com/SzymonHalucha/Minerals.CodeBuilder</PackageProjectUrl>
         <PackageTags>code, builder, indented, writer, utils</PackageTags>
         <PackageReadmeFile>README.md</PackageReadmeFile>
-        <PackageReleaseNotes>Fixed namespaces</PackageReleaseNotes>
+        <PackageReleaseNotes>Added CodeBuilderHelper class</PackageReleaseNotes>
         <IsPackable>true</IsPackable>
     </PropertyGroup>
 

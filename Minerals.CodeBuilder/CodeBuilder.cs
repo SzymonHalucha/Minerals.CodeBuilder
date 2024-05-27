@@ -45,7 +45,7 @@ namespace Minerals
             return this;
         }
 
-        public CodeBuilder WriteIteration(IEnumerable<string> lines, Action<CodeBuilder, string, bool> iterator)
+        public CodeBuilder WriteIteration<T>(IEnumerable<T> lines, Action<CodeBuilder, T, bool> iterator)
         {
             if (lines.Any() is false)
             {

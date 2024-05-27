@@ -23,7 +23,7 @@ Add the Minerals.CodeBuilder nuget package to your C# project using the followin
 ### 1. Project file definition
 
 ```xml
-<PackageReference Include="Minerals.CodeBuilder" Version="0.2.0" />
+<PackageReference Include="Minerals.CodeBuilder" Version="0.2.1" />
 ```
 
 ### 2. dotnet command
